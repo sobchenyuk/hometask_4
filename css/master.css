@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'HelveticaNeue Regular';
+    src: url('../fonts/HelveticaNeue-Regular/HelveticaNeue.eot');
+    src: url('../fonts/HelveticaNeue-Regular/HelveticaNeue.eot?iefix') format('eot'),
+    url('../fonts/HelveticaNeue-Regular/HelveticaNeue.woff') format('woff'),
+    url('../fonts/HelveticaNeue-Regular/HelveticaNeue.ttf') format('truetype'),
+    url('../fonts/HelveticaNeue-Regular/HelveticaNeue.svg#webfont') format('svg');
+}
+
+body {
+    font-family: 'HelveticaNeue-Regular', monospace;
+    width: 100%;
+    background-image: url('../img/Background copy.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 1990px;
+    min-width: 1200px;
+    height: 1064px;
+}
+
+div.ul {
+}
+
+div.ul > div {
+    display: inline-block;
+}
+
+nav {
+    background: #085699;
+}
+
+div.ul > div > a, a:focus {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    font-size: 14px;
+    font-family: 'HelveticaNeue-Regular', monospace;
+    color: rgb(96, 181, 237);
+}
+
+div.ul > div > a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div.ul > div:hover {
+    background: #4eabda;
+}
+
+div.ul > div > a {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.ul > div {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -3px;
+    margin-bottom: -0px;
+    margin-left: -8px;
+}
+
+div.ul > div > a > img {
+    margin-bottom: -4px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 6px;
+}
+
+div.ul > div.li-end {
+    border-right: 1px solid;
+    border-color: #56a2dc;
+    height: 28px;
+    position: absolute;
+    top: 6px;
+}
+
+div.ul > div.li-ends {
+    margin-left: -7px;
+}
+
+div.ul > div.li-ends.a-href:hover, div.ul > div.a-href:hover {
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#54b4eb), color-stop(60%, #2fa4e7), to(#1d9ce5));
+    background-image: linear-gradient(#cde9f9, #2fa4e7 60%, #1d9ce5);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+div.ul > div.li-ends.a-href::before {
+    content: "Minhas";
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+div.ul > div.li-ends.a-href::after {
+    content: "Ofertas";
+    margin-left: -19px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+div.ul > div.li-ends.a-href:hover::before {
+    content: "Minhas";
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+div.ul > div.li-ends.a-href:hover::after {
+    content: "Ofertas";
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+div.ul > div.a-href span {
+    margin-bottom: -4px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 6px;
+    color: #ffffff;
+}
+
+div.ul > div.a-href > a {
+    color: #ffffff;
+}
+
+div.ul > div.a-href::before {
+    content: "Entrar";
+
+    color: #ffffff;
+}
+
+div.ul > div.a-href::after {
+    content: "Cadastre-se";
+    margin-left: -19px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+div.ul > div.a-href:hover::before {
+    content: "Entrar";
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+div.ul > div.a-href:hover::after {
+    content: "Cadastre-se";
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+div.ul > div.a-href a {
+    margin-left: -17px;
+    margin-right: 2px;
+}
+
+/*end nav*/
+main {
+    width: 560px;
+    height: 613px;
+    margin-top: 214px;
+    color: white;
+    text-align: center;
+}
+
+div.up p span {
+    font-size: 24px;
+}
+
+div.up {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: rgba(16, 15, 15, 0.57);
+    margin-bottom: 2px;
+}
+
+div.niz {
+    background-color: rgba(16, 15, 15, 0.57);
+    height: 585px;
+}
+
+div.niz img.center-block.img-ones {
+    padding-top: 38px;
+}
+
+.cont {
+    width: 276px;
+}
+
+.ou {
+    margin-top: 28px;
+    background-image: url('../img/Layer 49.png');
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: 0px;
+    margin-bottom: 32px;
+}
+
+.ou span {
+    font-family: 'HelveticaNeue-Regular', monospace;
+    font-size: 20px;
+    color: #999;
+}
+input[type="checkbox"] {
+    margin-left: 0px;
+}
+
+.form-group {
+    margin-bottom: 21px;
+}
+.form-group p span {
+    position: relative;
+    top: -2px;
+    left: 3px;
+    color: #999999;
+}
+div.text p.zagal {
+    font-size: 11px;
+    position: relative;
+    left: -41px;
+    width: 137%;
+    top: 4px;
+    color: #999999;
+}
+input.form-control {
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0px;
+    background-color: black;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-color: rgba(240, 248, 255, 0);
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+    color: white;
+}
+input[type="text"]::-webkit-input-placeholder ,
+input[type="email"]::-webkit-input-placeholder ,
+input[type="password"]::-webkit-input-placeholder {
+    color: white;
+}
+input.form-control::-webkit-input-placeholder {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 13px 3px rgb(133, 153, 181);
+    border-color: rgb(102, 175, 233);
+    border-left: 1px solid rgba(78, 114, 130, 0.24);
+    background: #1b5288;
+    border-right: 1px solid rgba(78, 114, 130, 0.24);
+    border-top: 1px solid rgba(78, 114, 130, 0.24);
+}
+
+button.btn.btn-primary {
+    background-image: linear-gradient(rgba(205, 233, 249, 0.78), #2fa4e7 60%, #2e7bc4);
+}
+
+button.btn.btn-primary:hover {
+    background-image: linear-gradient(#2e7bc4, #2fa4e7 60%, rgb(146, 182, 216));
+}
